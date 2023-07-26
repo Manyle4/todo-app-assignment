@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO</title>
+</head>
+<body>
+    <div class="header">
+        <div class="hdrimg"><p>Hello</p></div>
+    </div>
+    <div class="content">
+        <div class="hdr">
+            <h2 class="todo">TODO</h2>
+            <button class="moonbtn"><img src="assets/icon-moon.svg" alt="Moon Icon" id="icon"></button>
+        </div>
+        <div class="createrow">
+            <input type="text" id="create" placeholder="Create a new todo">
+            <button class="createbtn" onclick="addTask()">Create</button>
+        </div>
+        <div class="tasks">
+            <ul id="list_container">
+                
+            </ul>
+            <div class="bttmbar">
+                <a href="#">5 items left</a>
+                <div class="bttns">
+                    <a href="#"> All </a>
+                    <a href="#"> Active </a>
+                    <a href="#"> Completed </a>
+                 </div>
+                <a href="#">Clear Completed</a>
+            </div>
+        </div>
+        <div class="drag"><a href="#">Drag and drop to reorder list</a></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
